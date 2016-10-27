@@ -1,0 +1,68 @@
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@media only screen and (max-width: 610px) {
+    /* Para móviles */
+    .colores, .info{
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+}
+body{
+  background-color: #f0f0f0;
+  height: 100%;
+  width: 100%;
+}
+
+section{
+  margin-top: 2%;
+}
+
+.sp-wrap {
+  max-width: 100%;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+#regresar{
+  display: absolute;
+  z-index: 5;
+  width: auto;
+  height: 50px;
+  top: 0;
+  left: 0;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+-webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+#regresar:hover{
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.colores h2{
+  font-family: OpenSans-Light;
+  color: #0d18b6;
+}
+.colores img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+.info p{
+  font-family: OpenSans-Light;
+  color: #0d18b6;
+  padding-left: 10px;
+  text-align: justify;
+  font-size: 14pt;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+h1{
+  font-family: OpenSans-Bold;
+}
+.success{
+  color: #0d18b6;
+}
+.error{
+  color: #C9302C;
+}
+a{
+  font-family: OpenSans-Light;
+}

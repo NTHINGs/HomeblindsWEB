@@ -1,0 +1,69 @@
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+html {
+  height: 100%;
+  width: 100%
+}
+body {
+  padding: 0;
+  position: relative;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+.fullwidth{
+  width: 100%;
+}
+.usuarios{
+  float: right;
+}
+.btn{
+  white-space: normal !important;
+  font-size: 1.7vw !important;
+}
+.btn-group{
+  width:100% !important;
+}
+#logouticon{
+  font-size: 2vw;
+  text-decoration: none;
+  color: #C9302C;
+}
+.glyphicon{
+  font-size: 2vw;
+  text-decoration: none;
+  color: #FFF;
+}
+.cent{
+  text-align: center;
+}
+.oculto{
+  display: none;
+}
+.azul{
+  background-color: #0d18b6;
+  color:#FFF;
+}
+label{
+  text-decoration: none;
+  font-family: OpenSans-Light;
+  color: #0d18b6;
+  margin-top: 2%;
+}
+input, textarea{
+  width: 95%;
+}
+
+
+textarea{
+  height: 300px;
+}
